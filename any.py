@@ -119,13 +119,13 @@ def create_responsive_gui():
         button.grid(row=7, column=1, columnspan=3, padx=68, pady=27.5, sticky="ew")
         
 
-        icon = ImageTk.PhotoImage(Image.open('img/SUBMET.png'))
-        button = ctk.CTkButton(master=main_frame, width=227, height=64, corner_radius=30, fg_color="#44689D", image=icon, compound="left", text='ptint',command=printing)
+        icon = ImageTk.PhotoImage(Image.open('img/الطبع.png'))
+        button = ctk.CTkButton(master=main_frame, width=227, height=64, corner_radius=30, fg_color="#44689D", image=icon, compound="left", text='',command=printing)
         button.grid(row=8, column=1, columnspan=3, padx=68, pady=27.5, sticky="ew")
 
 
-        icon = ImageTk.PhotoImage(Image.open('img/SUBMET.png'))
-        button = ctk.CTkButton(master=main_frame, width=227, height=64, corner_radius=30, fg_color="#44689D", image=icon, compound="left", text='delet',command=delet)
+        icon = ImageTk.PhotoImage(Image.open('img/الحذف.png'))
+        button = ctk.CTkButton(master=main_frame, width=227, height=64, corner_radius=30, fg_color="#44689D", image=icon, compound="left", text='',command=delet)
         button.grid(row=9, column=1, columnspan=3, padx=68, pady=27.5, sticky="ew")
 
 
