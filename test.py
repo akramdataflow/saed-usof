@@ -31,6 +31,12 @@ class PDFGenerator:
             <p>جهة المراجعة: {reviewer_data['جهة المراجعة']}</p>
             <p>وقت الحفظ: {reviewer_data['وقت الحفظ']}</p>
             <p>البحث: {reviewer_data['البحث']}</p>
+            <div style="width: 100%; height: 100%; position: relative; background: white">
+<img style="width: 110px; height: 64px; left: 470px; top: 18px; position: absolute" src="https://via.placeholder.com/110x64" />
+<div style="width: 230px; height: 101px; left: 183px; top: 17px; position: absolute; text-align: center; color: black; font-size: 14px; font-family: Inter; font-weight: 600; word-wrap: break-word">جمهورية العراق <br/>هيئة النزاهة الاتحادية <br/>دائرة التحقيقات <br/>مديرية تحقيق البصرة<br/></div>
+<div style="left: 278px; top: 220px; position: absolute; text-align: right; color: black; font-size: 16px; font-family: Inter; font-weight: 600; word-wrap: break-word">اسم المراجع :<br/><br/><br/>المهنة :<br/><br/><br/>رقم وتاريخ وجهة اصدار البطاقه التعريفيه :<br/><br/><br/>جهة المراجعه /اسم الموظف او التشكيل :<br/><br/><br/>تاريخ ووقت الدخول : <br/><br/><br/>وقت المغادرة :<br/><br/><br/>الملحوظات : <br/><br/><br/><br/><br/><br/><br/>التوقيع :</div>
+<img style="width: 110px; height: 64px; left: 16px; top: 16px; position: absolute" src="https://via.placeholder.com/110x64" />
+</div>
         </body>
         </html>
         """
